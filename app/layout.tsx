@@ -7,8 +7,11 @@ import '../styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'FirstServe - Find Your Perfect Tennis Racket',
+  title: '퍼스트서브 - Find Your Perfect Tennis Racket',
   description: 'Personalized tennis racket recommendations for players of all levels',
+  icons: {
+    icon: '/firstserve.jpg'
+  }
 }
 
 export default function RootLayout({
